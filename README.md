@@ -41,3 +41,17 @@ class SendEmail():
     email_host = "smtp.qq.com"
     send_user = "test@qq.com"
     user_list = ['test@qq.com','test@163.com']
+	
+	
+6.如果想要将程序转化为exe文件，只需运行程序ToExe.py	
+'python ToExe.py'
+
+7.更详细的教程
+
+* <a href="https://blog.csdn.net/qiqiyingse/article/details/85112139">PyQT 跟我学做密码管理器(1)</a>
+* <a href="https://blog.csdn.net/qiqiyingse/article/details/85115212">PyQT 跟我学做密码管理器(2)</a>
+* <a href="https://blog.csdn.net/qiqiyingse/article/details/85123431">PyQT 跟我学做密码管理器(3)</a>
+* <a href="https://blog.csdn.net/qiqiyingse/article/details/85124723">PyQT 跟我学做密码管理器(4)</a>
+* <a href="https://blog.csdn.net/qiqiyingse/article/details/85127568">PyQT 跟我学做密码管理器(5)</a>
+* <a href="https://blog.csdn.net/qiqiyingse/article/details/85130923">PyQT 跟我学做密码管理器(6)</a>
+	
