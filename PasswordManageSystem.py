@@ -64,10 +64,10 @@ class SendEmail():
         self.send_Enclosuremail(content)
         self.server.sendmail(user,user_list,message.as_string())
 
-class PWKeeper(QMainWindow):
+class PasswordManagerSystem(QMainWindow):
 
     def __init__(self):
-        super(PWKeeper, self).__init__()
+        super(PasswordManagerSystem, self).__init__()
         self.initToolbar()
         self.initDB()
         self.initGrid()
@@ -270,7 +270,7 @@ class Login():
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    pwk = PWKeeper()
+    pwk = PasswordManagerSystem()
     pwk.show()
     app.exec_()
     pwk.conn.close()
