@@ -21,7 +21,7 @@ class SendEmail():
     password = "abcdefghijklmn" #邮箱授权码
     email_host = "smtp.qq.com"
     send_user = "test@qq.com"
-    user_list = ['test@qq.com','jmps515@163.com','meng.jiang@ericsson.com']
+    user_list = ['test@qq.com','jmps515@163.com']
     sub = "密码备份"
 
     def __init__(self):
